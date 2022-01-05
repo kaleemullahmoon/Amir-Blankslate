@@ -1,0 +1,480 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+Nav{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-logo{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+Nav ul{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+Nav ul li{
+    float: left;
+    list-style: none;
+    margin-left: 40px;
+}
+
+Nav ul li a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+Nav ul li a:hover{
+    color: gold;
+}
+
+
+
+#icon{
+    position: absolute;
+    font-size: 22px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 1150px;
+}
+#icon:hover{
+  color: gold;
+}
+
+header{
+    position: relative;
+    background-color: greenyellow;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url('../img/header-img.jpg');
+}
+.header-sub{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header-sub-h1{
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 52px;
+    text-transform: capitalize !important;
+}
+.header-sub-p{
+    color: white;
+    margin-bottom: 40px;
+}
+.header-sub-btn-1{
+    background-color: cornflowerblue;
+    padding: 15px 40px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.header-sub-btn-2{
+    background-color: transparent;
+    padding: 13px 38px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    transition: .5s;
+}
+.header-sub-btn-2:hover{
+    background-color: white;
+    color: black;
+}
+.blog{
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    width: 100%;
+    height: 500px;
+}
+.blog-left img{
+    position: absolute;
+    height: 500px;
+    width: 700px;
+    margin-top: 30px;
+}
+.blog-right{
+    position: absolute;
+    top: 50%;
+    left:75% ;
+    transform: translate(-50%, -50%);
+}
+.blog-right-h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+
+}
+.blog-right-p{
+    font-size: 15px;
+    text-transform:capitalize;
+    margin-bottom: 30px;
+}
+.blog-right-btn{
+    background-color: cornflowerblue;
+    padding: 15px 40px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.portfolio{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 500px;
+}
+.portfolio-left{
+    position: absolute;
+    left: 28%;
+    right: 30%;
+    top: 43%;
+    transform: translate(-59%, -50%);
+    
+    
+}
+.portfolio-right img{
+    position: absolute;
+    height: 500px;
+    width: 700px;
+    left: 45%;
+    top: 3px;
+    
+}
+.portfolio-left-h1{
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+.portfolio-left-p{
+    padding-bottom:  20px;
+    font-size: 20px;
+}
+.portfolio-left-btn{
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 15px 30px;
+}
+.about{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(/img/about.jpg);
+    background-size: cover;
+}
+.about-h1{
+    padding: 15% 0%;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.about-p{
+    margin-top: -170px;    
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 30px;
+    color: white;
+
+}
+    
+.about-btn{
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 50px;
+    
+}
+.about img{
+    position: absolute; 
+    height: 300px;
+    width: 500px;   
+    margin-left: -50%;
+}
+.options{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 100%;
+}
+.options-h1{
+    position: absolute;
+    padding: 6% 40%;
+    margin-left: 30px;
+    text-align: center;
+}
+.options-p{
+    position: absolute;
+    padding: 10% 10%;
+    margin-left: 30px;
+    text-align: center;
+}
+.options-btn{
+    position: absolute;
+    padding: 1% 2%;
+    margin-left: 550px;
+    margin-top: 200px;
+    text-align: center;
+    background-color: cornflowerblue;
+    text-align: none;
+    text-decoration: none;
+    height: 20px;
+    width: 105px;
+    color: white;
+}
+.image-1{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    margin-left: 30px;
+    padding-right: 10px;
+}
+.footer1{
+    position: relative;
+    background-color: rgb(20, 20, 20);
+    height: 840px;
+    width: 100%;
+    margin-top: 800px;
+
+}
+.footer-h1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    font-size: 30px;
+    
+}
+.footer-sub{
+    position: relative;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.footer-p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.picgallery{
+    position: absolute;
+    height: 560px;
+    width: 300px;
+    margin-top: 50px;
+    
+}
+.pic1{
+    position: absolute;
+    height: 210px;
+    width: 310px;
+}
+.pic2{
+    position: absolute;
+    height: 210px;
+    width: 330px;
+    margin-left: 310px;
+}
+.pic3{
+    position: absolute;
+    height: 210px;
+    width: 330px;
+    margin-left: 640px;
+    
+}
+.pic4{
+    position: absolute;
+    height: 210px;
+    width: 300px;
+    margin-left: 963px;
+}
+.pic5{
+    position: absolute;
+    height: 210px;
+    width: 310px;
+    margin-top: 230px;
+    
+}
+.pic6{
+    position: absolute;
+    height: 210px;
+    width: 340px;
+    margin-left: 310px;
+    margin-top: 230px;
+}
+.pic7{
+    position: absolute;
+    height: 210px;
+    width: 323px;
+    margin-left: 640px;
+    margin-top: 230px;
+}
+.pic8{
+    position: absolute;
+    height: 210px;
+    width: 300px;
+    margin-left: 963px;
+    margin-top: 230px;
+}
+.pic9{
+    position: absolute;
+    height: 210px;
+    width: 330px;
+    margin-left: 310px;
+    margin-top: 470px;
+}
+.pic10{
+    position: absolute;
+    height: 210px;
+    width: 310px;
+    margin-top: 470px;
+}
+.customers{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/whatour\ custpmer\ says.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.customers-h1{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+
+}
+.customers-p{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 30px;
+
+}
+.clients{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 100%;
+ 
+}
+.clients-h1{
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px;
+
+}
+.wordpress{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+}
+.wordpress-h1{
+    position: absolute;
+    top: 46%;
+    left: 13%;
+    font-size: 30px;
+}
+.wordpress-btn{
+    position: absolute;
+    background-color: cornflowerblue;
+    top: 46%;
+    left: 70%;
+    color: white;
+    height: 30px;
+    width: 140px;
+    text-align: none;
+    font-size: 20px;
+    padding: 10px 40px;
+    text-decoration: none;
+    
+}
+.realfoot{
+    position: relative;
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    
+    
+}
+
+.foot-h1{
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 4%;
+    font-size: 18px;
+
+}
+.realfoot-ul{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 80px;
+    font-size: 22px;
+    letter-spacing: 5px;
+    
+    
+}
+.realfoot ul a i{
+    color: white;
+}
+.realfoot-ul a :hover{
+    color: cornflowerblue;
+    
+}
+
+
+
+
+
+
+
+
+
+
